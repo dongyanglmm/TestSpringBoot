@@ -18,4 +18,9 @@ public class TestController {
         return "hello Jenkins";
     }
 
+    @RequestMapping("/hello2")
+    public String sayHello2() {
+        return "hello Docker";
+    }
+
 }
